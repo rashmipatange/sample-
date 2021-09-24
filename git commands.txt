@@ -1,0 +1,16 @@
+git config --global user.name Rashmi
+git config --global user.email "myemail@gmail.com"
+touch .gitignore
+git init 
+git add .
+git commit -m "Initial Commit"
+git status
+ssh-keygen -t ed25519 -C "myemail@gmail.com"
+<path to id_rsa.pub> # add this key to github account
+git remote add origin git@github.com:rashmipatange/DjangoAssignment.git #<ssh url.git>
+git push origin master
+
+
+Create branch
+git checkout -b <branch name>
+
